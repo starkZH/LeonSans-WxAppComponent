@@ -5,11 +5,11 @@ Leon Sans是由Jongmin Kim在2019年开发的一款动态字体，这款字体�
 > <br>使用了TweenMax.js动画库
 ## 体验
 可扫描以下小程序码体验：<br>
-![小程序码](https://wx1.sbimg.cn/2020/07/27/P4JpN.jpg "小程序码")<br>
-![多彩缤纷](https://wx2.sbimg.cn/2020/07/27/P4P8U.gif "多彩缤纷")<br>
-![彩色渐变](https://wx2.sbimg.cn/2020/07/27/P40O8.gif "彩色渐变")<br>
-![波浪](https://wx2.sbimg.cn/2020/07/27/P4CPJ.gif "波浪")<br>
-![图案](https://wx2.sbimg.cn/2020/07/27/P4D1m.gif "图案")
+![小程序码](https://raw.githubusercontent.com/starkZH/LeonSans-WxAppComponent/gh-pages/screenshot/miniapp.jpg "小程序码")<br>
+![多彩缤纷](https://raw.githubusercontent.com/starkZH/LeonSans-WxAppComponent/gh-pages/screenshot/colorful.gif "多彩缤纷")<br>
+![彩色渐变](https://raw.githubusercontent.com/starkZH/LeonSans-WxAppComponent/gh-pages/screenshot/gradient.gif "彩色渐变")<br>
+![波浪](https://raw.githubusercontent.com/starkZH/LeonSans-WxAppComponent/gh-pages/screenshot/wave.gif "波浪")<br>
+![图案](https://raw.githubusercontent.com/starkZH/LeonSans-WxAppComponent/gh-pages/screenshot/pattern.gif "图案")
 
 ## 快速上手
 1. 下载components和utils，然后复制至你的项目的根目录下
