@@ -1,0 +1,5 @@
+<canvas
+  type="2d"
+  id="{{id}}"
+  class='default i-class'
+></canvas>
