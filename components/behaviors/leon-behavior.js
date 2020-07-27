@@ -142,6 +142,7 @@ module.exports = Behavior({
       this.data.canvas.height = height * pixelRatio
       this.data.ctx.scale(pixelRatio, pixelRatio);
       this.data.canvas.requestAnimationFrame((t)=>this._animate(t));
+      this.triggerEvent('complete', {canvas:this.data.canvas}, {});
       this._init()
     },
     _drawing() {

@@ -46,7 +46,7 @@ animate|string|动画类型，可选值Power4(平缓),Bounce(弹跳),Elastic(弹
 animateIn|boolean|启用入场动画|true
 animateOut|boolean|启用退场动画|true
 loop|boolean|动画循环展示|false
-id|string|字体的唯一id|-
+id|string|字体的唯一id|leon-canvas
 width|number|画布的宽度与屏幕宽度之比（0~1）|1
 height|number|画布的高度与屏幕高度之比（0~1）|1
 ### font-colorful属性（多彩缤纷字体）
@@ -68,3 +68,8 @@ fps|number|波浪效果的FPS|30
 patternWidth|number|图案的宽度|40
 patternHeight|number|图案的高度|10
 pathGap|number|每个字符的笔画上的点之间的间隔（0~1）|0.2
+## 事件
+事件名|说明|返回值
+--|:--|:--
+bind:complete|当画布初始化完成后触发，返回canvas实例对象|-
+
