@@ -15,7 +15,7 @@ module.exports = Behavior({
       type:Number,
       value:50
     },
-    id:{
+    key:{
       type:String,
       value:'leon-canvas'
     },
@@ -91,7 +91,7 @@ module.exports = Behavior({
         this.data.animate='Power4'
       this.data.easeAnimate = animateMap[this.data.animateIndex[this.data.animate]]
       if(this.data.leon){
-      
+        //退场动画
         if(this.data.animateOut){
           let i, total = this.data.leon.drawing.length;
           for (i = 0; i < total; i++) {
@@ -120,7 +120,7 @@ module.exports = Behavior({
       this.data.animate='Power4'
     this.data.easeAnimate = animateMap[this.data.animateIndex[this.data.animate]]
     wx.createSelectorQuery().in(this)
-    .select('#'+this.data.id)
+    .select('#'+this.data.key)
     .fields({
       node: true,
       size: true,

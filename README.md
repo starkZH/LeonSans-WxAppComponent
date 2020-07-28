@@ -25,10 +25,10 @@ Leon Sans是由Jongmin Kim在2019年开发的一款动态字体，这款字体�
   },
 }
 ```
-3. 在wxml中使用（若要在一个页面使用多个字体，需为每个字体指定唯一id）
+3. 在wxml中使用（若要在一个页面使用多个字体，需为每个字体指定唯一的key）
 ```html
-<font-colorful id='colorful' text="Hello" size='30' weight='200' />
-<font-wave id='wave' text="Hello" amplitude="0.3" size='30' weight='200' />
+<font-colorful key='colorful' text="Hello" size='30' weight='200' />
+<font-wave key='wave' text="Hello" amplitude="0.3" size='30' weight='200' />
 ```
 ## 属性列表
 ### 公共属性
@@ -46,7 +46,7 @@ animate|string|动画类型，可选值Power4(平缓),Bounce(弹跳),Elastic(弹
 animateIn|boolean|启用入场动画|true
 animateOut|boolean|启用退场动画|true
 loop|boolean|动画循环展示|false
-id|string|字体的唯一id|leon-canvas
+key|string|字体的唯一标识|leon-canvas
 width|number|画布的宽度与屏幕宽度之比（0~1）|1
 height|number|画布的高度与屏幕高度之比（0~1）|1
 ### font-colorful属性（多彩缤纷字体）

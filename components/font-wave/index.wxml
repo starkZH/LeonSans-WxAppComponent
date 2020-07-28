@@ -1,6 +1,1 @@
-<canvas
-  type="2d"
-  id="{{id}}"
-  class='default i-class'
-  style="width:{{width*100}}vw;height:{{height*100}}vh;"
-></canvas>
+<include src="../template/canvas.wxml"/>

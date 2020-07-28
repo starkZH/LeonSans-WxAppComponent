@@ -1,7 +1,6 @@
-<template name="i-canvas">
 <canvas
   type="2d"
-  id="{{id}}"
+  id="{{key}}"
   class='default i-class'
+  style="width:{{width*100}}vw;height:{{height*100}}vh;"
 ></canvas>
-</template>
