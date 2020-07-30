@@ -1,7 +1,5 @@
 import {LeonSans} from '../../utils/leon'
 const leonBehavior = require('../behaviors/leon-behavior');
-const mini_weight=120;
-const fps=1000/50;
 Component({
   externalClasses: ['i-class'],
   behaviors: [leonBehavior],

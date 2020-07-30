@@ -146,21 +146,6 @@ module.exports = Behavior({
       this._init()
     },
     _drawing() {
-      let out = Power4.easeOut;
-      switch(this.data.animate){
-        case 'Bounce':
-          out =Bounce.easeOut;
-          break;
-        case 'Expo':
-          out =Expo.easeOut;
-          break;
-        case 'Elastic':
-          out =Elastic.easeOut;
-          break;
-        case 'RoughEase':
-          out =RoughEase.easeOut;
-          break;
-      }
       let i, total = this.data.leon.drawing.length;
       for (i = 0; i < total; i++) {
           TweenMax.killTweensOf(this.data.leon.drawing[i]);
