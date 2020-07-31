@@ -7,6 +7,14 @@ Component({
   externalClasses: ['i-class'],
   behaviors: [leonBehavior],
   properties: {
+    roundCap:{
+      type:Boolean,
+      value:false
+    },
+    multiply:{
+      type:Boolean,
+      value:false
+    }
   },
 
   /**
@@ -40,6 +48,16 @@ Component({
         leading:this.data.leading,
         align:this.data.align
     });
+    if(this.data.multiply){
+      this.data.ctx.globalCompositeOperation = 'multiply';
+    }else {
+      this.data.ctx.globalCompositeOperation = 'source-over';
+    }
+    if (this.data.roundCap) {
+        this.data.ctx.lineCap = "round";
+    } else {
+        this.data.ctx.lineCap = "butt";
+    }
     },
     _init() {
       this._initLeon();

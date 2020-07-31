@@ -53,6 +53,8 @@ height|number|画布的高度与屏幕高度之比（0~1）|1
 名称|类型|说明|默认值
 --|:--:|:--|--
 color|Array|提供字体效果的颜色数组|['#c5d73f', '#9d529c', '#49a9db', '#fec330', '#5eb96e', '#fc5356', '#f38f31']
+roundCap|boolean|是否开启笔画边缘圆角|false
+multiply|boolean|是否开启笔画边缘叠影|false
 ### font-gradient属性（颜色渐变字体）
 名称|类型|说明|默认值
 --|:--:|:--|--
