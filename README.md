@@ -1,4 +1,6 @@
 # LeonSans-WxAppComponent
+[![Page Views Count](https://badges.toozhao.com/badges/01EH2AWJFBQY4SRNMH0WCMNT90/blue.svg)](https://badges.toozhao.com/badges/01EH2AWJFBQY4SRNMH0WCMNT90/blue.svg "Get your own page views count badge on badges.toozhao.com")
+
 Leon Sans是由Jongmin Kim在2019年开发的一款动态字体，这款字体有许多有趣酷炫的效果。我将其封装成了微信小程序组件，方便广大开发者使用~<br>
 目前封装了四种字体，仅支持显示英文、数字和特殊符号。<br>
 > 基于[Leon Sans项目](https://github.com/cmiscm/leonsans)
