@@ -7,7 +7,7 @@ Leon Sans是由Jongmin Kim在2019年开发的一款动态字体，这款字体�
 > <br>使用了TweenMax.js动画库
 ## 体验
 可扫描以下小程序码体验：<br>
-![小程序码](https://raw.githubusercontent.com/starkZH/LeonSans-WxAppComponent/gh-pages/screenshot/miniapp.jpg "小程序码")<br>
+![小程序码，微信搜索 Dynamic Font](https://raw.githubusercontent.com/starkZH/LeonSans-WxAppComponent/gh-pages/screenshot/miniapp.jpg "小程序码")<br>
 ![多彩缤纷](https://raw.githubusercontent.com/starkZH/LeonSans-WxAppComponent/gh-pages/screenshot/colorful.gif "多彩缤纷")<br>
 ![彩色渐变](https://raw.githubusercontent.com/starkZH/LeonSans-WxAppComponent/gh-pages/screenshot/gradient.gif "彩色渐变")<br>
 ![波浪](https://raw.githubusercontent.com/starkZH/LeonSans-WxAppComponent/gh-pages/screenshot/wave.gif "波浪")<br>
@@ -77,3 +77,5 @@ pathGap|number|每个字符的笔画上的点之间的间隔（0~1）|0.2
 --|:--|:--
 bind:complete|当画布初始化完成后触发，返回canvas实例对象|-
 
+## Others
+欢迎大佬们一起来适配中文字体~
